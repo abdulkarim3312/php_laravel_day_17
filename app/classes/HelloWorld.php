@@ -31,23 +31,23 @@ class HelloWorld
             $this->x++;
         }while($this->x > 50);
 
-//        while ($this->x < 50)
-//        {
-//            echo $this->x.' ';
-//            $this->x++;
-//        }
+        while ($this->x < 50)
+        {
+            echo $this->x.' ';
+            $this->x++;
+        }
 
-//        for ($this->x; $this->x <= 100; $this->x++)
-//        {
-//            if ($this->x == 15)
-//            {
-//                break;
-//            }
-//            else{
-//                continue;
-//            }
-//            echo $this->x.'<br/>';
-//        }
+        for ($this->x; $this->x <= 100; $this->x++)
+        {
+            if ($this->x == 15)
+            {
+                break;
+            }
+            else{
+                continue;
+            }
+            echo $this->x.'<br/>';
+        }
 
 //        switch ($this->x)
 //        {
